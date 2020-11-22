@@ -1,0 +1,18 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin-left: 40%;
+    width: 20%;
+    height: 500px;
+}
+
+.input {
+    margin-left: 40%;
+    width: 18%;
+}

@@ -1,0 +1,85 @@
+body {
+    position: flex;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sidebar {
+    margin-top: 15px;
+    float: left;
+    background-color: whitesmoke;
+    width: 200px;
+    height: 1230px;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+a {
+    font-size: 18px;
+    color: black;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.mainbar {
+    background-color: whitesmoke;
+}
+
+li {
+    list-style-type: none;
+}
+
+input:not(.jenisKelamin) {
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+textarea {
+    display: block;
+    width: 50%;
+    height: 60px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+button{
+	margin-top: 20px;
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100px;
+	color: #fff;
+	font-size: 18px;
+	border-radius:50px;
+	background: #1c8adb;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.checkbox {
+    float: left;
+    margin-left: -250px;
+    margin-right: -250px;
+}

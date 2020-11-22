@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Registasi Mahasiswa</title>
+</head>
+<body>
+    <section class="daftarIsi">
+        <fieldset class="sidebar">
+            <h1>Daftar Isi</h1>
+            <ul>
+                <li>
+                    <a href="#diri">Data Diri</a>
+                </li>
+                <li>
+                    <a href="#ortu">Data Orangtua</a>
+                </li>
+            </ul>
+        </fieldset>
+    </section>
+    <form class="diri" id="diri" method="POST">
+        <fieldset class="mainbar">
+            <legend>Data Diri</legend>
+            <ul>
+                <li>
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" name="nama" id="nama">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </li>
+                <li>
+                    <label for="sekolah">Asal Sekolah</label>
+                    <input type="text" name="sekolah" id="sekolah">
+                </li>
+                <li>
+                    <label for="tempatLahir">Tempat Lahir</label>
+                    <input type="text" name="tempatLahir" id="tempatLahir">
+                </li>
+                <li>
+                    <label for="tanggalLahir">Tanggal Lahir</label>
+                    <input type="date" name="tanggalLahir" id="tanggalLahir">
+                </li>
+                <li>
+                    <label>Jenis Kelamin</label>
+                    <p>
+                        <input type="radio" name="jenisKelamin" class="jenisKelamin"> Laki - Laki
+                        <input type="radio" name="jenisKelamin" class="jenisKelamin"> Perempuan 
+                    </p> 
+                </li>
+                <li>
+                    <label for="berat">Berat Badan (Kg)</label>
+                    <input type="text" name="berat" id="berat">
+                </li>
+                <li>
+                    <label for="tinggi">Tinggi Badan (Cm)</label>
+                    <input type="text" name="tinggi" id="tinggi">
+                </li>
+                <li>
+                    <label for="agama">Agama</label>
+                    <input type="text" name="agama" id="agama">
+                </li>
+                <li>
+                    <label for="noTelp">Nomor Telepon (WA)</label>
+                    <input type="text" name="noTelp" id="noTelp">
+                </li>
+                <li>
+                    <label for="nik">NIK</label>
+                    <input type="text" name="nik" id="nik">
+                </li>
+                <li>
+                    <label for="alamat">Alamat Lengkap</label>
+                    <textarea name="alamat" id="alamat" cols="30" rows="2"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <form class="ortu" id="ortu" method="POST">
+        <fieldset class="mainbar">
+            <legend>Data Orangtua</legend>
+            <ul>
+                <li>
+                    <label for="namaAyah">Nama Lengkap Ayah</label>
+                    <input type="text" name="namaAyah" id="namaAyah">
+                </li>
+                <li>
+                    <label for="pekAyah">Pekerjaan Ayah</label>
+                    <select name="pekAyah" id="pekAyah">
+                        <option>------Pilih Satu------</option>
+                        <option>Wiraswasta</option>
+                        <option>PNS</option>
+                        <option>Polisi / TNI</option>
+                        <option>Karyawan Swasta</option>
+                        <option>Guru</option>
+                        <option>Petani / Pedagang</option>
+                        <option>Nelayan</option>
+                        <option>Lain - lain</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="penAyah">Pendidikan Ayah</label>
+                    <select name="penAyah" id="penAyah">
+                        <option>--Pilih Satu--</option>
+                        <option>SD</option>
+                        <option>SMP</option>
+                        <option>SMA</option>
+                        <option>D1</option>
+                        <option>D2</option>
+                        <option>D3</option>
+                        <option>D4 / S1</option>
+                        <option>S2</option>
+                        <option>S3</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="alamatAyah">Alamat Ayah</label>
+                    <textarea name="alamatAyah" id="alamatAyah" cols="30" rows="2"></textarea>
+                </li>
+                
+                <li>
+                    <label for="namaIbu">Nama Lengkap Ibu</label>
+                    <input type="text" name="namaIbu" id="namaIbu">
+                </li>
+                <li>
+                    <label for="pekIbu">Pekerjaan Ibu</label>
+                    <select name="pekIbu" id="pekIbu">
+                        <option>------Pilih Satu------</option>
+                        <option>Wiraswasta</option>
+                        <option>PNS</option>
+                        <option>Polisi / TNI</option>
+                        <option>Karyawan Swasta</option>
+                        <option>Guru</option>
+                        <option>Petani / Pedagang</option>
+                        <option>Nelayan</option>
+                        <option>Lain - lain</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="penIbu">Pendidikan Ibu</label>
+                    <select name="penIbu" id="penIbu">
+                        <option>--Pilih Satu--</option>
+                        <option>SD</option>
+                        <option>SMP</option>
+                        <option>SMA</option>
+                        <option>D1</option>
+                        <option>D2</option>
+                        <option>D3</option>
+                        <option>D4 / S1</option>
+                        <option>S2</option>
+                        <option>S3</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="alamatIbu">Alamat Ibu</label>
+                    <textarea name="alamatIbu" id="alamatIbu" cols="30" rows="2"></textarea>
+                </li>
+            </ul>
+
+            <input type="checkbox" class="checkbox"> <p class="syarat">Dengan ini saya menyatakan bahwa data yang telah saya masukkan benar dan dapat dipertanggungjawabkan</p>
+            <button type="submit" name="submit">Submit</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
